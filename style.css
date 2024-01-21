@@ -1,0 +1,250 @@
+.top-container{
+    background-color: #F8E559;
+    padding-top: 50px;
+}
+
+h1{
+    color: #332941;
+    padding-top: 150px;
+    font-size: 5.6rem;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Yesteryear', cursive;
+}
+
+.title-text-h2{
+
+    text-align: center;
+    font-size: 2.8rem;
+    color:rgba(33,29,10, 0.7);
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  html {
+    margin: 0;
+    padding: 0;
+}
+
+.skyline{
+    height:"700px";
+    display: flex;
+    justify-content: center;
+    margin-top: 30px 0px 0px 0px;
+    align-items: center;
+}
+
+
+.profile-photo{
+    padding-top: 100px;
+    height: 400px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+
+}
+
+.h2s{
+    
+    color: #F8E559;
+    font-size: 2.5rem;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Yesteryear', cursive;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.cloud1{
+    position: absolute;
+    left:240px;
+}
+
+.cloud2{
+    position: absolute;
+    right:200px
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    color: aliceblue;
+}
+
+body {
+    background-color: #332941;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border: dashed #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.advanced_skills
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-message{
+
+    display: block;
+    width:60%;
+    margin: auto;
+    line-height: 2;
+    color: aliceblue;
+}
+
+.btn{
+    margin-top: 50px;
+    margin: 50px auto 50px auto;
+    background-color: #3559E0;
+    color: aliceblue;
+    font-weight:600;
+    font-size: 20px;
+}
+
+.bottom-container {
+    background-color: #F8E559;
+    padding: 50px 0 20px;
+}
+
+@media (max-width: 680px) 
+{
+    .top-container{
+        background-color: #F8E559;
+        padding-top: 50px;
+    }
+    
+    h1{
+        color: #332941;
+        padding-top: 150px;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Shadows Into Light', cursive;
+        font-family: 'Yesteryear', cursive;
+    }
+    
+    .title-text-h2{
+        text-align: center;
+        font-size: 1.6rem;
+        color:rgba(33,29,10, 0.7);
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .skyline{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px 0px 0px 0px;
+        align-items: center;
+    }
+    
+    
+    .profile-photo{
+        padding-top: 100px;
+        height: 400px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    
+    }
+    
+    .h2s{
+        
+        color: #F8E559;
+        font-size: 2.5rem;
+        font-family: 'Caveat', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Shadows Into Light', cursive;
+        font-family: 'Yesteryear', cursive;
+    }
+    
+    
+    .pro{
+        text-decoration: underline;
+    }
+    
+    .cloud1{
+        position: absolute;
+        left:240px;
+    }
+    
+    .cloud2{
+        margin-top: 50px;
+        position: absolute;
+        right:200px
+    }
+    
+    .intro{
+        width: 30%;
+        margin: auto;
+        line-height: 2;
+        color: aliceblue;
+    }
+    
+    body {
+        background-color: #332941;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    hr{
+        border: dashed #eaf6f6 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+    }
+    
+        .advanced_skills
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .contact-message{
+    
+        display: block;
+        width:60%;
+        margin: auto;
+        line-height: 2;
+        color: aliceblue;
+    }
+    
+    .btn{
+        margin-top: 50px;
+        margin: 50px auto 50px auto;
+        background-color: #3559E0;
+        color: aliceblue;
+        font-weight:600;
+        font-size: 20px;
+    }
+    
+    .bottom-container {
+        background-color: #F8E559;
+        padding: 50px 0 20px;
+    }
+
+    
+    
+}
